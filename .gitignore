@@ -18,11 +18,6 @@
 /engines/fcn_resnet50_fp32.trt
 /engines/deeplabv3_resnet50_fp16.trt
 /engines/deeplabv3_resnet50_fp32.trt
-/calibcache/fcn_resnet101_calibration.cache
-/calibcache/lraspp_mobilenet_v3_large_calibration.cache
-/calibcache/fcn_resnet50_calibration.cache
-/calibcache/deeplabv3_mobilenet_v3_large_calibration.cache
-/calibcache/deeplabv3_resnet101_calibration.cache
 /onnx_models/deeplabv3_mobilenet_v3_large.onnx
 /onnx_models/lraspp_mobilenet_v3_large.onnx
 /onnx_models/fcn_resnet101.onnx
