@@ -1,5 +1,9 @@
 # Segmentation-models-benchmark
+### Environment
+1. nvcr.io/nvidia/tensorrt:22.01-py3
+2. NVIDIA A6000 GPU
 
+### Step-by-step
 1. Using `python segmentation_torch2onnx.py` to select the torchvision model and convert it into onnx.
    The model can be selected through changeing the `mdoel_index` in line 52. Model list is shown below:
    ```   
