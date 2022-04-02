@@ -1,5 +1,5 @@
 /calibration_data/
-/metric.py
+/utils/metric.py
 /infer_results/
 /engines/fcn_resnet50_fp16.trt
 /engines/deeplabv3_mobilenet_v3_large_int8.trt

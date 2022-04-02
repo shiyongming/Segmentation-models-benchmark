@@ -41,8 +41,8 @@ from torchvision.utils import make_grid
 from torchvision.io import read_image
 from pathlib import Path
 
-dog1_int = read_image(str(Path('assets') / 'dog1.jpg'))
-dog2_int = read_image(str(Path('assets') / 'dog2.jpg'))
+dog1_int = read_image(str(Path('../assets') / 'dog1.jpg'))
+dog2_int = read_image(str(Path('../assets') / 'dog2.jpg'))
 
 grid = make_grid([dog1_int, dog2_int, dog1_int, dog2_int])
 show(grid)

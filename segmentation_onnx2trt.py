@@ -1,7 +1,7 @@
 import logging
 import tensorrt as trt
 from calibrator import EntropyCalibrator
-import common
+from utils import common
 
 
 def build_int8_engine(onnx_file_path, calibrator, batch_size, calibration_cache):

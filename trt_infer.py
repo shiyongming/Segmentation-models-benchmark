@@ -1,16 +1,9 @@
 import logging
-import os
-import sys
-import time
-import ctypes
 import argparse
 import numpy as np
 import tensorrt as trt
 
 import pycuda.driver as cuda
-import pycuda.autoinit
-
-from PIL import Image
 
 import torch
 import torchvision
@@ -281,7 +274,7 @@ if __name__ == "__main__":
     
     if eval_mode:
     	import time
-    	from load_gt import voc_reader
+    	from utils.load_gt import voc_reader
     	
     	voc_data = voc_reader(1, 1)
     	total_samples = voc_data.n_val_steps_per_epoch
