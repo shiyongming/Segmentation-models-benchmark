@@ -39,9 +39,13 @@ Through uncommenting the corresponding line from 89 to 94, the onnx model can be
    
 
 ### Some results
-1.Testing results ![segmentation_benchmark](pictures/segmentation_benchmarks.JPG)
+1.Testing results 
 
-2.Results visualization ![visualization](pictures/results_with_masks.png)
+![segmentation_benchmark](pictures/segmentation_benchmarks.JPG)
+
+2.Results visualization 
+
+![visualization](pictures/results_with_masks.png)
 
    
 
